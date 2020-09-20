@@ -15,20 +15,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        
-        <activity android:name=".Launcher">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.MainActivity" />
             </intent-filter>
         </activity>
-       
-        <activity
-            android:name=".Homepage"
-            android:screenOrientation="portrait" />
         <activity android:name=".Signup" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".Launcher" />
     </application>
 
 </manifest>
