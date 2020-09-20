@@ -1,0 +1,6 @@
+include ':WaterRemainder'
+rootProject.name='Healdon'
+include ':app'
+
+include ':unityLibrary'
+project(':unityLibrary').projectDir=new File('C:\\Android projects\\SIH\\Healdon\\unityLibrary')
