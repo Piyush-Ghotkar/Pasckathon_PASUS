@@ -9,7 +9,7 @@ import android.os.Bundle;
 
 public class Launcher extends AppCompatActivity {
 
-    String u_id;
+    String u_id = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
