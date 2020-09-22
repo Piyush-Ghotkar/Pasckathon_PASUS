@@ -15,16 +15,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".MainActivity">
+        <activity android:name=".appoinment_status" />
+        <activity android:name=".fam_register" />
+        <activity android:name=".fam_sign_in" />
+        <activity android:name=".User_request_appoinment" />
+        <activity android:name=".Nearby_doctors" />
+        <activity android:name=".doc_register" />
+        <activity android:name=".doc_sign_in" />
+        <activity android:name=".Launcher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-                <category android:name="android.intent.category.MainActivity" />
             </intent-filter>
         </activity>
+        <activity android:name=".WaterDrinkingReminder" />
+        <activity android:name=".Routine" />
+        <activity android:name=".MedicationReminder" />
+        <activity
+            android:name=".Homepage"
+            android:screenOrientation="portrait" />
         <activity android:name=".Signup" />
-        <activity android:name=".Launcher" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

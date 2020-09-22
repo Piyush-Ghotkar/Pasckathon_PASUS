@@ -9,7 +9,7 @@ import android.os.Bundle;
 
 public class Launcher extends AppCompatActivity {
 
-    String u_id = "";
+    String u_id;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +42,7 @@ public class Launcher extends AppCompatActivity {
     }
 
     private void start_home() {
-        //Intent i=new Intent(Launcher.this, Homepage.class);
-        //startActivity(i);
+        Intent i=new Intent(Launcher.this, Homepage.class);
+        startActivity(i);
     }
 }
